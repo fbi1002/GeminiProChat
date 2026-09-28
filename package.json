@@ -10,7 +10,7 @@
     "build:netlify": "OUTPUT=netlify astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.astro",
+    "lint": "bash scripts/build-juyu-offline-agent.sh",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.astro --fix"
   },
   "dependencies": {
