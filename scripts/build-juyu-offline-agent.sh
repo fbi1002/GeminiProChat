@@ -70,3 +70,5 @@ if [ -z "$URL" ]; then
   exit 22
 fi
 echo "JuyuOfflineAPK_URL=$URL"
+
+# trigger ci
